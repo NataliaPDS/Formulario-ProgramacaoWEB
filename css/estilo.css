@@ -1,0 +1,56 @@
+body{
+    background-color: aquamarine;
+}
+#todo{
+    background-color: white;
+    width: 35%;
+    height: auto;
+   
+    margin: auto;
+  
+
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+  
+    border-radius: 15px;
+}
+#grupo{
+   display:flex;
+}
+
+.form{
+    width: 50%;
+}
+.form input[type=text]
+{
+    width: 80%;
+    height: 50%;
+   
+ 
+}
+#todo input[type=submit]
+{
+    width: 95%;
+    height: auto;
+    background-color: green;
+    color: white;
+
+}
+#todo input[type=email]
+{
+    width: 90%;
+    height: 50%;
+  
+}
+.grupo input[type=radio]
+{
+    width:auto;
+    
+}
+.radios{
+    width: 45%;
+    padding-left: 10%;
+    margin: auto;
+    border: 0.06em solid #ccc;
+}
