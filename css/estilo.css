@@ -3,7 +3,7 @@ body{
 }
 #todo{
     background-color: white;
-    width: 35%;
+    width: 45%;
     height: auto;
    
     margin: auto;
@@ -38,7 +38,18 @@ body{
     color: white;
     padding-top: 10px;
 
+
 }
+#todo input[type=submit]:hover{
+    background-color: greenyellow;
+    color: white;
+    cursor: pointer;
+    width: 95%;
+    height: auto;
+    padding-top: 10px;
+
+}
+
 #todo input[type=email]
 {
     width: 95%;
@@ -54,7 +65,7 @@ body{
 }
 .radios{
     width: 80%;
-    padding-left: 5%;
+    padding: 10%;
     margin: auto;
     border: 0.06em solid #ccc;
     margin-right: 10%;
