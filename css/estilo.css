@@ -24,8 +24,9 @@ body{
 }
 .form input[type=text]
 {
-    width: 80%;
+    width: 90%;
     height: 50%;
+    padding-top: 5px;
    
  
 }
@@ -35,12 +36,15 @@ body{
     height: auto;
     background-color: green;
     color: white;
+    padding-top: 10px;
 
 }
 #todo input[type=email]
 {
-    width: 90%;
+    width: 95%;
     height: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
   
 }
 .grupo input[type=radio]
@@ -49,8 +53,15 @@ body{
     
 }
 .radios{
-    width: 45%;
-    padding-left: 10%;
+    width: 80%;
+    padding-left: 5%;
     margin: auto;
     border: 0.06em solid #ccc;
+    margin-right: 10%;
+    padding-left: 0%;
+    padding-top: 0%;
+    padding-bottom: 3%;
+}
+textarea{
+    width: 95%;
 }
