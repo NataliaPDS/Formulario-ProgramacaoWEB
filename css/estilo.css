@@ -69,9 +69,6 @@ body{
     margin: auto;
     border: 0.06em solid #ccc;
     margin-right: 10%;
-    padding-left: 0%;
-    padding-top: 0%;
-    padding-bottom: 3%;
 }
 textarea{
     width: 95%;
