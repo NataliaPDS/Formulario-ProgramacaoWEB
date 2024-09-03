@@ -1,0 +1,35 @@
+header{
+    background-color: rgb(187, 221, 255);
+    /*position: absolute; pode ficar em cima de outros elementos*/
+    position: sticky;
+    top: 0px;
+    width: 100%;
+}
+.topo{
+    display: flex;
+    margin:auto;
+    align-items: center;
+}
+.teste{
+   margin-top: 150px;
+}
+.logoIMG{
+    width: 60px;
+    height: auto;
+}
+.opcoes{
+    margin-left: auto;
+}
+.opcoea ul{
+    list-style: none; /*tirar o pontinho da lista*/
+}
+.opcoes ul li{
+    display: inline;
+    color: white;
+    Font-size: 1.35em;
+    Padding: 15px;
+}
+.opcoes ul li a{
+    text-decoration: none;
+    color: white;
+}
